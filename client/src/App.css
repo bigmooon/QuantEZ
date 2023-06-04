@@ -1,0 +1,470 @@
+header,
+section,
+aside,
+ariticle,
+footer,
+sheets,
+white-logo.png
+  tabs-image-05.jpg
+  tabs-image-04.jpg
+  tabs-image-03.jpg
+  tabs-image-02.jpg
+  tabs-image-01.jpg
+  search-icon-05.png
+  search-icon-04.png
+  search-icon-03.png
+  search-icon-02.png
+  search-icon-01.png
+  listing-icon-heading.png
+  listing-icon-03.png
+  listing-icon-02.png
+  listing-icon-01.png
+  listing-06.jpg
+  listing-05.jpg
+  listing-04.jpg
+  listing-03.jpg
+  listing-02.jpg
+  listing-01.jpg
+  heading-bg.jpg
+  black-logo.png
+  banner-bg.jpg
+  content {
+  display: block;
+}
+
+.content {
+  margin-top: 50px;
+  background-color: white;
+  width: 100%;
+  height: 2200px;
+  float: right;
+}
+
+.contents {
+  float: right;
+  width: 50%;
+  position: sticky;
+  top: 10px;
+}
+
+.sidebar {
+  float: left;
+  width: 50%;
+}
+.sticky {
+  position: sticky;
+  top: 10px;
+}
+
+table.FStable {
+  width: 90%;
+  border-collapse: collapse;
+  text-align: left;
+  line-height: 1.5;
+
+  margin: 20px 10px;
+}
+table.FStable thead {
+  background: #7314ff;
+}
+table.FStable thead th {
+  width: 20%;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  color: #fff;
+}
+table.FStable tbody th {
+  width: 20%;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+table.FStable td {
+  width: 20%;
+  padding: 10px;
+  vertical-align: top;
+  border-bottom: 1px solid #ccc;
+}
+
+table.FStable .special {
+  background: #f7f1ff;
+}
+
+table.FStable .special2 {
+  background: #f5f5f5;
+}
+
+/* Align */
+.l {
+  text-align: left !important;
+  padding-left: 5px;
+}
+
+.c {
+  text-align: center !important;
+}
+
+.r {
+  text-align: right !important;
+  padding-right: 5px;
+}
+
+#header-top-right {
+  z-index: 3;
+  position: absolute;
+  width: 435spx;
+  height: 40px;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  padding: 8px;
+}
+
+/* 0519 화면이 줄어드는 이슈 수정 완료  */
+@media screen and (max-width: 1240px) {
+  html {
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    flex-direction: column;
+    width: 100%;
+    min-width: 1200px;
+    min-height: 100%;
+    overflow-x: auto;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  display: block;
+}
+
+#header {
+  height: 160px;
+  font-family: "Noto Sans KR", sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f8f9fb;
+}
+
+#container {
+  margin: 0 auto;
+  height: 100%;
+  font-family: "Noto Sans KR", "Nanum Gothic", sans-serif;
+}
+#header-top {
+  height: 40px;
+  width: 100%;
+  background-color: #f8f9fb;
+}
+
+ul {
+  display: block;
+  list-style-type: none;
+}
+
+/* p {
+  padding: 0;
+} */
+
+#header-top-right li {
+  display: inline;
+  float: left;
+  font-size: 12px;
+  letter-spacing: -0.5px;
+  color: #666;
+  line-height: 40px;
+}
+
+#header-top-right li.in-select select {
+  padding: 4px 6px;
+  margin-top: 7px;
+  font-size: 13px;
+  color: #888;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+}
+
+#header-con {
+  height: 120px;
+  background-color: #f8f9fb;
+}
+
+.header-logo {
+  float: left;
+  width: 50px;
+  height: 100%;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* main banner 1 */
+#main-banner-1 {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f8f9fb;
+}
+.main-banner-1-img {
+  height: 400px;
+  background: url("./img/main_banner_1.svg") right bottom no-repeat;
+  width: 100%;
+  display: inline-block;
+  padding-right: 50px;
+}
+.main-banner-1-left {
+  width: 50%;
+  height: 100%;
+  padding-top: 40px;
+  padding-left: 60px;
+}
+#main-banner-1 .p-1,
+#main-banner-1 .p-2,
+#main-banner-1 .p-3 {
+  overflow: hidden;
+}
+
+#main-banner-1 .p-1-action,
+#main-banner-1 .p-2-action,
+#main-banner-1 .p-3-action {
+  display: block;
+  transition: all 1s;
+}
+
+#main-banner-1 .p-1,
+#main-banner-2 .p-1 {
+  height: 53px;
+  font-size: 31px;
+  color: #374054;
+  letter-spacing: -0.025em;
+}
+
+#main-banner-1 .p-1-action {
+  transition-delay: 0.2s;
+  padding-top: 0;
+}
+.p-1-style {
+  vertical-align: middle !important ;
+}
+#main-banner-1 .p-2,
+#main-banner-2 .p-2 {
+  height: 88px;
+  margin-bottom: 0;
+  font-size: 48px;
+  color: #374054;
+  font-weight: 900;
+  line-height: 110%;
+}
+#main-banner-1 main-banner-1-img .p-2-action {
+  transition-delay: 0.4s;
+}
+#main-banner-1 .p-3,
+#main-banner-2 .p-3 {
+  height: 120px;
+  margin-top: -20px;
+  font-size: 16px;
+  color: #909dab;
+  letter-spacing: -0.025em;
+  transition-delay: 0.6s;
+}
+#main-banner-1 .main-banner-1-img .p-3-action {
+  transition-delay: 0.6s;
+}
+#main-banner-1 .main-button-1 {
+  margin-right: 18px;
+}
+/* main banner 2 */
+#main-banner-2 {
+  height: 400px;
+  padding-right: 60px;
+  overflow: hidden;
+  position: relative;
+  text-align: right;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.main-banner-2-img {
+  height: 400px;
+  background: url("./img/main_banner_2.svg") left bottom no-repeat;
+  width: 100%;
+  display: inline-block;
+  padding-left: 50px;
+}
+.main-banner-2-right {
+  width: 50%;
+  float: right;
+  padding-top: 40px;
+  padding-right: 60px;
+}
+
+/* btn */
+.main-button-1,
+.main-button-2,
+.main-button-3 {
+  display: inline-block;
+  height: 43px;
+  line-height: 43px;
+  min-width: 160px;
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.025em;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #5400cf;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: color 0.2s, background-color 0.2s;
+}
+.main-button-1,
+.main-button-2:hover,
+.main-button-1.on,
+.main-button-3 {
+  color: #fff;
+  background: #5400cf;
+}
+.main-button-2,
+.main-button-1.on,
+.main-button-1:hover,
+.main-button-3:hover {
+  color: #5400cf;
+  background: transparent;
+}
+.button-box {
+  display: block;
+  padding-bottom: 30px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+/* footer */
+#footer {
+  height: 200px;
+  overflow: hidden;
+  clear: both;
+  background-color: #fff;
+  color: #fff;
+  width: 100%;
+  position: flex;
+  margin: 0 auto;
+  background: #5400cf url(./img/footer.svg) no-repeat center bottom;
+  background-size: cover;
+  font-family: "Noto Sans KR", "Nanum Gothic", "나눔고딕", "Noto Sans KR",
+    sans-serif;
+}
+#footer a {
+  color: #fff;
+}
+.footer-in {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+}
+.footer-left,
+.footer-right {
+  padding-top: 28px;
+}
+.footer-left {
+  float: left;
+  width: 35%;
+}
+#footer .footer-left .footer-left-li-1 {
+  margin-bottom: 55px;
+}
+.footer-link-kakaotalk {
+  display: inline-block;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  line-height: 110%;
+  cursor: pointer;
+}
+.footer-link-kakaotalk span {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 110%;
+}
+#footer .footer-left .footer-left-li-2 {
+  margin-bottom: 3px;
+}
+.footer-link-email {
+  font-size: 18px;
+  font-weight: bold;
+}
+.footer-socialLink a,
+.footer-socialLink span {
+  display: inline-block;
+  padding: 0px 27px 5px 0px;
+  cursor: pointer;
+}
+.footer-right {
+  float: right;
+  position: relative;
+  width: 64%;
+}
+.footer-right .copy-1 {
+  font-size: 14px;
+  line-height: 140%;
+  letter-spacing: -0.025em;
+  color: white;
+}
+
+.contents .p {
+  margin-bottom: 1rem;
+}
+
+.content-0 {
+  width: 100% !important;
+  display: flex;
+  justify-content: center;
+}
+
+.content-0A,
+.content-0B,
+.content-0C,
+.content-0D {
+  margin-bottom: 100px;
+  width: 90%;
+  position: sticky;
+  top: 10px;
+}
+
+.contents {
+  float: right;
+  width: 50%;
+  position: sticky;
+  top: 10px;
+}

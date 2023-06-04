@@ -1,0 +1,55 @@
+#gnb {
+  height: 100px;
+  position: relative;
+  z-index: 1;
+  padding: 30px 60px 0 0;
+  float: right;
+  justify-content: right;
+}
+
+.gnb-depth-1 {
+  position: relative;
+  float: right;
+  width: 170px;
+}
+
+.gnb-depth-1-btn {
+  display: block;
+  line-height: 70px;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+.gnb-depth-2 {
+  display: none;
+  position: absolute;
+  font-size: 19px;
+  letter-spacing: -0.025em;
+  color: #333;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #ccc;
+  z-index: 999;
+  transition: 0.8s;
+}
+
+.gnb-depth-1-btn-dropdownmenu {
+  display: none;
+  width: 100%;
+}
+
+.gnb-depth-1-btn:hover {
+  color: #5400cf;
+}
+
+.gnb-depth-1-btn:hover .gnb-depth-2 {
+  display: block;
+}
